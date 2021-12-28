@@ -6,4 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 1st
-        run: echo "hello world"
+        run: |
+          echo "hello world"
+          ifconfig
