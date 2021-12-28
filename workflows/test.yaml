@@ -1,0 +1,9 @@
+#basic github action job
+name: My first github action job
+on: [push]
+jobs:
+  buildApp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 1st
+        run: echo "hello world"
